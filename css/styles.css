@@ -210,7 +210,7 @@ a.anchor {
   font-weight: 200;
 }
 
-/* UPDATES PAGE ---------------------------- */
+/* MOBILE PAGE ---------------------------- */
 
 @media screen and (max-width:612px) {
   .nav-logo {
@@ -263,5 +263,20 @@ a.anchor {
     font-size: 2em;
     font-weight: normal;
     margin-top: 0px;
+  }
+}
+
+@media screen and (max-height:600px) and (orientation:landscape) {
+  .heroText {
+    width: 100%;
+    margin-top: 9%;
+  }
+  .heroTitle {
+    font-size: 3em;
+  }
+  .sub {
+    font-size: 2em;
+    font-weight: normal;
+    margin-top: -20px;
   }
 }
