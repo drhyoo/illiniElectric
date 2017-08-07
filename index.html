@@ -34,11 +34,20 @@
 </head>
 <body>
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <div class="container-fluid">
   <div class="row nav is-illiniBlue">
-    <img src="images/ifeLogoSmall.png" class="nav-logo">
+    <img src="images/ife18_brnd_AltLogoW_v1_c.png" class="nav-logo">
     <div class="nav-items" id="nav-items">
       <a href="#SPONSORS">SPONSORS</a>
       <a href="#TEAM">TEAM</a>
@@ -63,9 +72,91 @@
     <img src="images/topSponsors.png" class="img-responsive sponsorsImg">
   </div>
 
+  <a class="anchor" id="UPDATES"></a>
+  <div class="row updates">
+    <h1 class="title">UPDATES</h1>
+    <div class="col-sm-12" align="center">
+      <div class="fb-page" data-href="https://www.facebook.com/IlliniFormulaElectric/"
+          data-tabs="timeline" data-width="500" data-height="400" data-small-header="true"
+          data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false">
+        <blockquote cite="https://www.facebook.com/IlliniFormulaElectric/"
+                    class="fb-xfbml-parse-ignore">
+          <a href="https://www.facebook.com/IlliniFormulaElectric/">
+            Illini Formula Electric
+          </a>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+
+  <a class="anchor" id="CARS"></a>
+  <h1 class="title">CARS</h1>
+  <div class="row cars">
+    <div class="col-sm-6 col-sm-offset-1 carImgWrap" align="right">
+      <div class="carImg sameHeightCar"></div>
+    </div>
+    <div class="col-sm-4 is-illiniBlueShade carCard sameHeightCar" align="left">
+      <div class="innerCarCard">
+        <h2 style="margin-top: 10px">MERCURY  <span style="color:#fa6300;">2017</span></h2>
+        <div class="carInfo">
+          <h4 id="carInfoMotor">MOTOR:
+            <span>
+              YASA-400
+            </span>
+          </h4>
+          <h4 id="carInfoMotorCont">MOTOR CONTROLLER:
+            <span>
+              SEVCON Gen4
+            </span>
+          </h4>
+          <h4 id="carInfoBattery">BATTERY:
+            <span>
+              300V ?Ah
+            </span>
+          </h4>
+          <h4 id="carInfoChassis">CHASSIS:
+            <span>
+              4130 Space Frame
+            </span>
+          </h4>
+          <h4 id="carInfoDrivetrain">DRIVETRAIN:
+            <span>
+              3:1 Single Gear
+            </span>
+          </h4>
+          <h4 id="carInfoSuspension">SUSPENSION:
+            <span>
+              Double Wishbone
+            </span>
+          </h4>
+          <h4 id="carInfoWheels">WHEELS:
+            <span>
+              20.5" Slicks
+            </span>
+          </h4>
+          <h4 id="carInfoWeight">WEIGHT:
+            <span>
+              525lb w/o driver
+            </span>
+          </h4>
+          <h4 id="carInfoRange">RANGE:
+            <span>
+              15mi
+            </span>
+          </h4>
+          <h4 id="carInfoAccel">0-62 MPH:
+            <span>
+              ?s
+            </span>
+          </h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <a class="anchor" id="TEAM"></a>
   <div class="row teamOverall">
-    <h1 class="teamTitle">TEAM LEADS</h1>
+    <h1 class="title">TEAM LEADS</h1>
     <div class="row team 1-cap">
       <div class="col-sm-3 member centerRow" align="center">
         <img src="images\teamProfiles\fsae2017_profileImg_mMetz_c.jpg" class="img-responsive">

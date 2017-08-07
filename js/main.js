@@ -1,25 +1,28 @@
 $(document).ready(function() {
   //Initiate equalize on load
-  equalize();
+  equalize(".sameHeight");
+  equalize(".sameHeightCar");
 });
 
 //Equalize on resizing of window
 $(window).resize(function() {
-  removeHeights();
-  equalize();
+  removeHeights(".sameHeight");
+  removeHeights(".sameHeightCar");
+  equalize(".sameHeight");
+  equalize(".sameHeightCar");
 });
 
-function equalize(){
-  var heights = $(".sameHeight").map(function() {
+function equalize(name){
+  var heights = $(name).map(function() {
       return $(this).height();
   }).get(),
 
   maxHeight = Math.max.apply(null, heights);
-  $(".sameHeight").height(maxHeight);
+  $(name).height(maxHeight);
 }
 
-function removeHeights(){
-  $(".sameHeight").height("auto");
+function removeHeights(name){
+  $(name).height("auto");
 }
 
 function hamburgerMenu() {
