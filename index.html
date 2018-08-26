@@ -63,7 +63,7 @@
   <div class="row landingPage">
     <div class="heroText">
       <div class="heroTitle">ILLINI <span>ELECTRIC</span></div>
-      <div class="heroTitle sub">INTRODUCING M<span>2017</span></div>
+      <div class="heroTitle sub">INTRODUCING G<span>2018</span></div>
     </div>
     <div class="heroImage"></div>
   </div>
@@ -92,13 +92,22 @@
 
   <a class="anchor" id="CARS"></a>
   <h1 class="title">CARS</h1>
+
   <div class="row cars">
-    <div class="col-sm-6 col-sm-offset-1 carImgWrap" align="right">
-      <div class="carImg sameHeightCar"></div>
+    <div id="arrows">
+      <a id="control-next" class="arrow" href="#" data-slide="next"></a>
+      <a id="control-prev" class="arrow" href="#" data-slide="prev"></a>
     </div>
-    <div class="col-sm-4 is-illiniBlueShade carCard sameHeightCar" align="left">
+
+    <div class="col-sm-6 col-sm-offset-1 carImgWrap 2018" align="right" style="display: block;">
+      <div class="carImg2018 sameHeightCar"></div>
+    </div>
+    <div class="col-sm-6 col-sm-offset-1 carImgWrap 2017" align="right" style="display: none;">
+      <div class="carImg2017 sameHeightCar"></div>
+    </div>
+    <div class="col-sm-4 is-illiniBlueShade carCard sameHeightCar 2018" align="left" style = "display: block;">
       <div class="innerCarCard">
-        <h2 style="margin-top: 10px">MERCURY  <span style="color:#fa6300;">2017</span></h2>
+        <h2 style="margin-top: 10px">GEMINI  <span style="color:#fa6300;">2018</span></h2>
         <div class="carInfo">
           <h4 id="carInfoMotor">MOTOR:
             <span>
@@ -112,7 +121,7 @@
           </h4>
           <h4 id="carInfoBattery">BATTERY:
             <span>
-              300V 840Ah
+              300V 10Ah
             </span>
           </h4>
           <h4 id="carInfoChassis">CHASSIS:
@@ -137,7 +146,64 @@
           </h4>
           <h4 id="carInfoWeight">WEIGHT:
             <span>
-              525lb w/o driver
+              516lb w/o driver
+            </span>
+          </h4>
+          <h4 id="carInfoRange">RANGE:
+            <span>
+              15mi
+            </span>
+          </h4>
+          <h4 id="carInfoTopSpeed">TOP SPEED:
+            <span>
+              >90mph
+            </span>
+          </h4>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 is-illiniBlueShade carCard sameHeightCar 2017" align="left" style = "display: none;">
+      <div class="innerCarCard">
+        <h2 style="margin-top: 10px">MERCURY  <span style="color:#fa6300;">2017</span></h2>
+        <div class="carInfo">
+          <h4 id="carInfoMotor">MOTOR:
+            <span>
+              YASA-400
+            </span>
+          </h4>
+          <h4 id="carInfoMotorCont">MOTOR CONTROLLER:
+            <span>
+              SEVCON Gen4
+            </span>
+          </h4>
+          <h4 id="carInfoBattery">BATTERY:
+            <span>
+              300V 10Ah
+            </span>
+          </h4>
+          <h4 id="carInfoChassis">CHASSIS:
+            <span>
+              4130 Space Frame
+            </span>
+          </h4>
+          <h4 id="carInfoDrivetrain">DRIVETRAIN:
+            <span>
+              3:1 Single Gear
+            </span>
+          </h4>
+          <h4 id="carInfoSuspension">SUSPENSION:
+            <span>
+              Double Wishbone
+            </span>
+          </h4>
+          <h4 id="carInfoWheels">WHEELS:
+            <span>
+              20.5" Slicks
+            </span>
+          </h4>
+          <h4 id="carInfoWeight">WEIGHT:
+            <span>
+              564lb w/o driver
             </span>
           </h4>
           <h4 id="carInfoRange">RANGE:
@@ -155,33 +221,87 @@
     </div>
   </div>
 
-  <div class="row 3Dcar">
-    <div style="margin: 0 auto; max-width: 1280px; max-height: 720px;">
-      <div style="width: 100%; height: 0px; position: relative; padding-bottom: 56.25%; overflow: hidden;">
-        <iframe src="images/ife18_render_XR.7/ife18_render_XR.7.html"
-                     allowfullscreen
-                     style="position: absolute; top: 0px; left: 0px; height: 100%; width: 1px; min-width: 100%; *width: 100%;"
-                     frameborder="0"
-                     scrolling="no">
-        </iframe>
-      </div>
-    </div>
-  </div>
-  <div class="row 3Dcar2">
-    <div style="margin: 0 auto; max-width: 800px; max-height: 800px;">
-      <div style="width: 100%; height: 0px; position: relative; padding-bottom: 100%; overflow: hidden;">
-        <iframe src="images/ife18_render_XR.8/ife18_render_XR.8.html"
-                     allowfullscreen
-                     style="position: absolute; top: 0px; left: 0px; height: 100%; width: 1px; min-width: 100%; *width: 100%;"
-                     frameborder="0"
-                     scrolling="no">
-        </iframe>
-      </div>
-    </div>
-  </div>
-
   <a class="anchor" id="TEAM"></a>
-  <div class="row teamOverall">
+  <div class="row teamOverall 2018" style="display: block">
+    <h1 class="title">TEAM LEADS</h1>
+    <div class="row team 1-cap">
+      <div class="col-sm-3 member centerRow" align="center">
+        <img src="images\teamProfiles\fsae2018_profileImg_mMetzler_c.jpg" class="img-responsive">
+        <div class="card sameHeight is-illiniBlueShade">
+          <h3 class="teamName">Matt Metzler</h3>
+          <h4 class="teamMemberTitle">Mechanical Captain</h4>
+        </div>
+      </div>
+      <div class="col-sm-3 member centerRow" align="center">
+        <img src="images\teamProfiles\fsae2018_profileImg_cSindagi_c.jpg" class="img-responsive">
+        <div class="card sameHeight is-illiniOrangeShade">
+          <h3 class="teamName">Chaitanya Sindagi</h3>
+          <h4 class="teamMemberTitle">Electrical Captain</h4>
+        </div>
+      </div>
+      <div class="col-sm-3 member centerRow" align="center">
+        <img src="images\teamProfiles\fsae2018_profileImg_dRhyoo_c.jpg" class="img-responsive">
+        <div class="card sameHeight is-illiniBlueShade">
+          <h3 class="teamName">Daniel Rhyoo</h3>
+          <h4 class="teamMemberTitle">Integration Captain</h4>
+        </div>
+      </div>
+    </div>
+    <div class="row team 2-mech">
+      <div class="col-sm-3 member centerRow" align="center">
+        <img src="images\teamProfiles\fsae2018_profileImg_gPopovic_c.jpg" class="img-responsive">
+        <div class="card sameHeight is-illiniBlueShade">
+          <h3 class="teamName">George Popovic</h3>
+          <h4 class="teamMemberTitle">Aero and Composites</h4>
+        </div>
+      </div>
+      <div class="col-sm-3 member centerRow" align="center">
+        <img src="images\teamProfiles\fsae2018_profileImg_hSteen_c.jpg" class="img-responsive">
+        <div class="card sameHeight is-illiniBlueShade">
+          <h3 class="teamName">Henry Steenkolk</h3>
+          <h4 class="teamMemberTitle">Chassis</h4>
+        </div>
+      </div>
+      <div class="col-sm-3 member centerRow" align="center">
+        <img src="images\teamProfiles\fsae2018_profileImg_eWood_c.jpg" class="img-responsive">
+        <div class="card sameHeight is-illiniBlueShade">
+          <h3 class="teamName">Eric Wood</h3>
+          <h4 class="teamMemberTitle">Drivetrain</h4>
+        </div>
+      </div>
+    </div>
+    <div class="row team 3-elec">
+      <div class="col-sm-3 member" align="center">
+        <img src="images\teamProfiles\fsae2018_profileImg_aSmith_c.jpg" class="img-responsive">
+        <div class="card sameHeight is-illiniOrangeShade">
+          <h3 class="teamName">Andrew Smith</h3>
+          <h4 class="teamMemberTitle">Tractive - LV</h4>
+        </div>
+      </div>
+      <div class="col-sm-3 member" align="center">
+        <img src="images\teamProfiles\fsae2017_profileImg_jSong_c.jpg" class="img-responsive">
+        <div class="card sameHeight is-illiniOrangeShade">
+          <h3 class="teamName">Josh Song</h3>
+          <h4 class="teamMemberTitle">Wiring Harness</h4>
+        </div>
+      </div>
+      <div class="col-sm-3 member" align="center">
+        <img src="images\teamProfiles\fsae2018_profileImg_nTuczak_c.jpg" class="img-responsive">
+        <div class="card sameHeight is-illiniOrangeShade">
+          <h3 class="teamName">Nick Tuczak</h3>
+          <h4 class="teamMemberTitle">System Testing</h4>
+        </div>
+      </div>
+      <div class="col-sm-3 member" align="center">
+        <img src="images\teamProfiles\fsae2018_profileImg_hMohamed_c.jpg" class="img-responsive">
+        <div class="card sameHeight is-illiniBlueShade2">
+          <h3 class="teamName">Harris Mohamed</h3>
+          <h4 class="teamMemberTitle">DAQ & Analysis</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row teamOverall 2017" style="display: none">
     <h1 class="title">TEAM LEADS</h1>
     <div class="row team 1-cap">
       <div class="col-sm-3 member centerRow" align="center">
