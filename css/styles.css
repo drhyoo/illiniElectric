@@ -224,6 +224,12 @@ a.anchor {
 .carImgWrap {
   padding-right: 0px;
 }
+.carImg2019 {
+  background: url(../images/ife19_sideCar_placeholder.jpg) center center;"
+  background-size: cover;
+  z-index: 0;
+  max-height: 360px;
+}
 .carImg2018 {
   background: url(../images/fsae2018_lincoln_sideCar_c_e.jpg) center center;"
   background-size: cover;

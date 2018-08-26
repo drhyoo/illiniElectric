@@ -40,7 +40,7 @@ function hamburgerMenu() {
 // Function to switch between years cars and teamleads
 //TODO: Implement a cleaner position system with transition
 function showOnlySlide(pos) {
-  var years = ["2018", "2017"],
+  var years = ["2019", "2018", "2017"],
       yearElementArray = [],
       target = Math.abs(pos);
   for (var year=0; year<years.length; year++) {
@@ -83,7 +83,7 @@ function arrows() {
   var arrows = document.getElementById("arrows"),
       move = document.getElementById("slide"),
       pos = 0,
-      max = -1;
+      max = -2;
 
   document.getElementById("control-next").style.display = "none";
 
