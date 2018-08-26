@@ -188,7 +188,7 @@ a.anchor {
 
 /* ABOUT CAR */
 .arrow {
-  z-index: 10;
+  z-index: 3;
   cursor: pointer;
   height: 40px;
   margin-top: -10px;
