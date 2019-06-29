@@ -144,7 +144,7 @@ a.anchor {
 .heroImage {
   height: 100vh;
   position: relative;
-  background: url(../images/fsae2018_lincoln_car_c_e.jpg) center center;
+  background: url(../images/fsae2019_lincoln_car_c_e.jpg) center center;
   background-size: cover;
   z-index: 0;
 }
@@ -225,19 +225,19 @@ a.anchor {
   padding-right: 0px;
 }
 .carImg2019 {
-  background: url(../images/ife19_sideCar_placeholder.jpg) center center;"
+  background: url(../images/fsae2019_lincoln_sideCar_c_e.jpg) center center;
   background-size: cover;
   z-index: 0;
   max-height: 360px;
 }
 .carImg2018 {
-  background: url(../images/fsae2018_lincoln_sideCar_c_e.jpg) center center;"
+  background: url(../images/fsae2018_lincoln_sideCar_c_e.jpg) center center;
   background-size: cover;
   z-index: 0;
   max-height: 360px;
 }
 .carImg2017 {
-  background: url(../images/ife18_web_Lincoln17_v2_c.jpg) center center;"
+  background: url(../images/ife18_web_Lincoln17_v2_c.jpg) center center;
   background-size: cover;
   z-index: 0;
   max-height: 360px;
@@ -390,12 +390,12 @@ a.anchor {
 
 @media screen and (max-height:600px) and (orientation:landscape) {
   .landingPage {
-    text-align: right;
+    text-align: left;
   }
   .heroText {
     width: 100%;
     margin-top: 9%;
-    padding-right: 5%
+    padding-left: 5%
   }
   .heroTitle {
     font-size: 3em;
